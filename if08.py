@@ -19,10 +19,11 @@ def main(a):
         s="three-digit even number"
     if 99<a<1000 and a%2!=0:
         s="three-digit odd number"
+    if a>999 and a>10:
+        s='dhdl'
     return s
-    
-    
-s=main(543)
+
+s=main(1000)
 print(s)
 
 
