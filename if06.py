@@ -54,10 +54,13 @@ def main(a,b,c):
      # sum of negative numbers   
     j=k+l+m
 
+
     if i>j:
         print('there are a lot of positive numbers')
-    else:
+    if i<j:
         print('there are a lot of negative numbers') 
-    return
+    if i==j:
+        print('')    
+    return 
 
-main(2,2,-2)
+main(2,0,-2)
