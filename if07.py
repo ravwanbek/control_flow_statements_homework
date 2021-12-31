@@ -13,16 +13,18 @@ def main(a):
         string: the message to print
     """
     if a>0 and a%2==0:
-        return print('positive even number')
+        s=('positive even number')
     if a>0 and a%2!=0:
-        return print('positive odd number')
+        s=('positive odd number')
     if a<0 and a%2==0:
-        return print('negative even number')
+        s=('negative even number')
     if a<0 and a%2!=0:
-        return print('negative odd number')
+        s=('negative odd number')
     if a==0:
-        return print("the number is zero")
-main(-91)
+        s=("the number is zero")
+    return s
+s=main(-91)
+print(s)
 
 
     
