@@ -49,11 +49,14 @@ def main(a,b,c):
     
 
     if i>j:
-       return print('there are a lot of positive numbers')
+        s='there are a lot of positive numbers'
     if i<j:
-       return print('there are a lot of negative numbers') 
+       s='there are a lot of negative numbers' 
+    return s
     
 
      
 
-main(2,9,-2)
+s=main(2,9,-2)
+print(s)
+
