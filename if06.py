@@ -52,9 +52,8 @@ def main(a,b,c):
         print('there are a lot of positive numbers')
     if i<j:
         print('there are a lot of negative numbers') 
-    if i==j:
-        print('')    
+    
 
-    return 
+    return i and j
 
-main(2,0,-2)
+main(2,9,-2)
